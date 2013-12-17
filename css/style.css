@@ -44,7 +44,7 @@ html, body {
       height: 50px;
       position: absolute;
       bottom: 0px;
-      left: 50%;
+      left: 85%;
       background-color: #333333;
       background-image: url(../image/arrow.png);
       background-repeat: no-repeat; }
@@ -68,6 +68,36 @@ html, body {
       left: 300px; }
   html #slide3, body #slide3 {
     background-image: url(../image/Noxus.jpg);
+    max-width: 1920px;
+    width: 100%;
+    background-size: 100%; }
+  html #slide4, body #slide4 {
+    background-image: url(../image/Freljord.jpg);
+    max-width: 1920px;
+    width: 100%;
+    background-size: 100%; }
+  html #slide5, body #slide5 {
+    background-image: url(../image/Piltover.jpg);
+    max-width: 1920px;
+    width: 100%;
+    background-size: 100%; }
+  html #slide6, body #slide6 {
+    background-image: url(../image/Zaun.jpg);
+    max-width: 1920px;
+    width: 100%;
+    background-size: 100%; }
+  html #slide7, body #slide7 {
+    background-image: url(../image/Ionia.jpg);
+    max-width: 1920px;
+    width: 100%;
+    background-size: 100%; }
+  html #slide8, body #slide8 {
+    background-image: url(../image/Bilgewater.jpg);
+    max-width: 1920px;
+    width: 100%;
+    background-size: 100%; }
+  html #slide9, body #slide9 {
+    background-image: url(../image/Bandle_City.jpg);
     max-width: 1920px;
     width: 100%;
     background-size: 100%; }
