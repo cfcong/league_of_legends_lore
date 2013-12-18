@@ -6,19 +6,19 @@ html,body{
   .navigation{
     position:fixed;
     z-index:1;
-    top:20px;
-
+    right:20px;
+    filter: blur(1px);
+    background-color:white;
+    background-repeat:no-repeat;
     li{
-      color:#000000;
-      display:block;
+      color:black;
       padding:0 10px;
       line-height:30px;
-      margin-bottom:2px;
       font-weight:bold;
       -webkit-transition:all .2s ease-in-out;
-      border-bottom:1px solid black;
-      text-align:left;
-      width:53px;
+      text-align:center;
+      width:85px;
+      display:inline-block;
     
       :hover,:active{
         font-size:25px;
@@ -65,66 +65,66 @@ html,body{
     }
   }
   #slide1{
-    background-image:url(../image/Valoran.jpg);
-    max-width: 1920px;
+    background-image:url(../image/valoran.jpg);
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    max-width:1920px;
     width:100%;
-    background-size:100%;
   }
   #slide2{
-    background-image:url(../image/Demacia.jpg);
-    max-width: 1920px;
-    width:100%;
-    background-size:100%;
+    background-image:url(../image/demacia.jpg);
     background-repeat:no-repeat;
-
-    img:first-child{
-      position:absolute;
-      top:700px;
-      left:300px;
-    }
+    max-width:1920px;
+    width:100%;
+    background-size:100% 100%;
   }
   #slide3{
-    background-image:url(../image/Noxus.jpg);
-    max-width: 1920px;
+    background-image:url(../image/noxus.jpg);
+    background-repeat:no-repeat;
+    max-width:1920px;
     width:100%;
-    background-size:100%;
+    background-size:100% 100%;
   }
   #slide4{
-    background-image:url(../image/Freljord.jpg);
-    max-width: 1920px;
+    background-image:url(../image/freljord.jpg);
+    background-repeat:no-repeat;
+    max-width:1920px;
     width:100%;
-    background-size:100%;
+    background-size:100% 100%;
   }
   #slide5{
-    background-image:url(../image/Piltover.jpg);
-    max-width: 1920px;
+    background-image:url(../image/piltover.jpg);
+    background-repeat:no-repeat;
+    max-width:1920px;
     width:100%;
-    background-size:100%;
+    background-size:100% 100%;
   }
   #slide6{
-    background-image:url(../image/Zaun.jpg);
-    max-width: 1920px;
+    background-image:url(../image/zaun.jpg);
+    background-repeat:no-repeat;
+    max-width:1920px;
     width:100%;
-    background-size:100%;
+    background-size:100% 100%;
   }
   #slide7{
-    background-image:url(../image/Ionia.jpg);
-    max-width: 1920px;
+    background-image:url(../image/ionia.jpg);
+    background-repeat:no-repeat;
+    max-width:1920px;
     width:100%;
-    background-size:100%;
+    background-size:100% 100%;
   }
   #slide8{
-    background-image:url(../image/Bilgewater.jpg);
-    max-width: 1920px;
+    background-image:url(../image/bilgewater.jpg);
+    background-repeat:no-repeat;
+    max-width:1920px;
     width:100%;
-    background-size:100%;
+    background-size:100% 100%;
   }
   #slide9{
-    background-image:url(../image/Bandle_City.jpg);
-    max-width: 1920px;
+    background-image:url(../image/bandlecity.jpg);
+    background-repeat:no-repeat;
+    max-width:1920px;
     width:100%;
-    background-size:100%;
+    background-size:100% 100%;
   }
-
-
 }
