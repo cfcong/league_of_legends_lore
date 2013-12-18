@@ -53,54 +53,60 @@ html, body {
         background-color: #494949;
         cursor: pointer; }
   html #slide1, body #slide1 {
-    background-image: url(../image/valoran.jpg);
+    background-image: url(../image/front.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     max-width: 1920px;
     width: 100%; }
   html #slide2, body #slide2 {
+    background-image: url(../image/valoran.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    max-width: 1920px;
+    width: 100%; }
+  html #slide3, body #slide3 {
     background-image: url(../image/demacia.jpg);
     background-repeat: no-repeat;
     max-width: 1920px;
     width: 100%;
     background-size: 100% 100%; }
-  html #slide3, body #slide3 {
+  html #slide4, body #slide4 {
     background-image: url(../image/noxus.jpg);
     background-repeat: no-repeat;
     max-width: 1920px;
     width: 100%;
     background-size: 100% 100%; }
-  html #slide4, body #slide4 {
+  html #slide5, body #slide5 {
     background-image: url(../image/freljord.jpg);
     background-repeat: no-repeat;
     max-width: 1920px;
     width: 100%;
     background-size: 100% 100%; }
-  html #slide5, body #slide5 {
+  html #slide6, body #slide6 {
     background-image: url(../image/piltover.jpg);
     background-repeat: no-repeat;
     max-width: 1920px;
     width: 100%;
     background-size: 100% 100%; }
-  html #slide6, body #slide6 {
+  html #slide7, body #slide7 {
     background-image: url(../image/zaun.jpg);
     background-repeat: no-repeat;
     max-width: 1920px;
     width: 100%;
     background-size: 100% 100%; }
-  html #slide7, body #slide7 {
+  html #slide8, body #slide8 {
     background-image: url(../image/ionia.jpg);
     background-repeat: no-repeat;
     max-width: 1920px;
     width: 100%;
     background-size: 100% 100%; }
-  html #slide8, body #slide8 {
+  html #slide9, body #slide9 {
     background-image: url(../image/bilgewater.jpg);
     background-repeat: no-repeat;
     max-width: 1920px;
     width: 100%;
     background-size: 100% 100%; }
-  html #slide9, body #slide9 {
+  html #slide10, body #slide10 {
     background-image: url(../image/bandlecity.jpg);
     background-repeat: no-repeat;
     max-width: 1920px;
