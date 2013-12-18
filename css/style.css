@@ -73,6 +73,18 @@ html, body {
     width: 100%;
     height: 100%;
     background-size: 100% 100%; }
+    html #slide3 #text3, body #slide3 #text3 {
+      color: #000000;
+      height: 400px;
+      width: 600px;
+      position: absolute;
+      top: 100px;
+      left: 100px;
+      -webkit-transition: opacity 2s ease-in;
+      -moz-transition: opacity 2s ease-in;
+      -o-transition: opacity 2s ease-in;
+      -ms-transition: opacity 2s ease-in;
+      transition: opacity 2s ease-in; }
   html #slide4, body #slide4 {
     background-image: url(../image/noxus.jpg);
     background-repeat: no-repeat;
