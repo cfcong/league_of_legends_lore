@@ -3,10 +3,14 @@ html, body {
   width: 100%;
   height: 100%; }
   html .navigation, body .navigation {
+    text-align: center;
     position: fixed;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
     z-index: 1;
-    right: 20px;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.5);
     background-repeat: no-repeat; }
     html .navigation li, body .navigation li {
       color: black;
@@ -14,7 +18,7 @@ html, body {
       line-height: 30px;
       font-weight: bold;
       -webkit-transition: all .2s ease-in-out;
-      text-align: center;
+      text-align: left;
       width: 85px;
       display: inline-block; }
       html .navigation li :hover, html .navigation li :active, body .navigation li :hover, body .navigation li :active {
@@ -25,7 +29,18 @@ html, body {
     background-attachment: fixed;
     width: 100%;
     height: 100%;
-    position: relative; }
+    position: relative;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    max-width: 1920px; }
+    html .slide img, body .slide img {
+      position: absolute; }
+    html .slide .text, body .slide .text {
+      position: absolute;
+      color: #000000;
+      background-color: rgba(255, 255, 255, 0.5); }
+      html .slide .text p, body .slide .text p {
+        padding: 10px; }
     html .slide .wrapper, body .slide .wrapper {
       width: 960px;
       height: 200px;
@@ -44,7 +59,7 @@ html, body {
       height: 50px;
       position: absolute;
       bottom: 0px;
-      left: 85%;
+      left: 73%;
       background-color: #333333;
       background-image: url(../image/arrow.png);
       background-repeat: no-repeat; }
@@ -52,84 +67,68 @@ html, body {
         background-color: #494949;
         cursor: pointer; }
   html #slide1, body #slide1 {
-    background-image: url(../image/front.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    max-width: 1920px;
-    width: 100%;
-    height: 100%; }
-  html #slide2, body #slide2 {
-    background-image: url(../image/valoran.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    max-width: 1920px;
-    width: 100%;
-    height: 100%; }
-  html #slide3, body #slide3 {
-    background-image: url(../image/demacia.jpg);
-    background-repeat: no-repeat;
-    max-width: 1920px;
-    width: 100%;
-    height: 100%;
-    background-size: 100% 100%; }
-    html #slide3 #text3, body #slide3 #text3 {
-      color: #000000;
-      height: 400px;
-      width: 600px;
+    background-image: url(../image/front.jpg); }
+    html #slide1 #text1_0, body #slide1 #text1_0 {
+      background-color: transparent;
+      color: white;
+      bottom: 32.5%;
+      left: 29.5%; }
+      html #slide1 #text1_0 h1, body #slide1 #text1_0 h1 {
+        font-size: 36px;
+        line-height: 40px; }
+    html #slide1 #text1_1, body #slide1 #text1_1 {
+      background-color: transparent;
+      color: white;
+      text-align: center;
+      bottom: 22%;
+      left: 38.5%; }
+    html #slide1 audio, body #slide1 audio {
       position: absolute;
+      bottom: 15px;
+      right: 0px; }
+    html #slide1 img:first-child, body #slide1 img:first-child {
+      top: 80%;
+      left: 22.5%; }
+    html #slide1 img:nth-child(2), body #slide1 img:nth-child(2) {
+      bottom: 65%;
+      left: 50%; }
+  html #slide2, body #slide2 {
+    background-image: url(../image/valoran.jpg); }
+  html #slide3, body #slide3 {
+    background-image: url(../image/demacia.jpg); }
+    html #slide3 #text3, body #slide3 #text3 {
+      width: 600px;
       top: 100px;
-      left: 100px;
-      -webkit-transition: opacity 1s ease-in;
-      -moz-transition: opacity 1s ease-in;
-      -o-transition: opacity 1s ease-in;
-      -ms-transition: opacity 1s ease-in;
-      transition: opacity 1s ease-in; }
+      left: 100px; }
   html #slide4, body #slide4 {
-    background-image: url(../image/noxus.jpg);
-    background-repeat: no-repeat;
-    max-width: 1920px;
-    width: 100%;
-    height: 100%;
-    background-size: 100% 100%; }
+    background-image: url(../image/noxus.jpg); }
+    html #slide4 #text4, body #slide4 #text4 {
+      color: white;
+      width: 600px;
+      top: 100px;
+      left: 50px; }
   html #slide5, body #slide5 {
-    background-image: url(../image/freljord.jpg);
-    background-repeat: no-repeat;
-    max-width: 1920px;
-    width: 100%;
-    height: 100%;
-    background-size: 100% 100%; }
+    background-image: url(../image/freljord.jpg); }
+    html #slide5 #text5, body #slide5 #text5 {
+      width: 600px;
+      top: 100px;
+      left: 300px; }
   html #slide6, body #slide6 {
-    background-image: url(../image/piltover.jpg);
-    background-repeat: no-repeat;
-    max-width: 1920px;
-    width: 100%;
-    height: 100%;
-    background-size: 100% 100%; }
+    background-image: url(../image/piltover.jpg); }
+    html #slide6 #text6, body #slide6 #text6 {
+      width: 700px;
+      top: 250px;
+      left: 50px; }
   html #slide7, body #slide7 {
-    background-image: url(../image/zaun.jpg);
-    background-repeat: no-repeat;
-    max-width: 1920px;
-    width: 100%;
-    height: 100%;
-    background-size: 100% 100%; }
+    background-image: url(../image/zaun.jpg); }
+    html #slide7 #text7, body #slide7 #text7 {
+      color: white;
+      width: 700px;
+      top: 100px;
+      left: 150px; }
   html #slide8, body #slide8 {
-    background-image: url(../image/ionia.jpg);
-    background-repeat: no-repeat;
-    max-width: 1920px;
-    width: 100%;
-    height: 100%;
-    background-size: 100% 100%; }
+    background-image: url(../image/ionia.jpg); }
   html #slide9, body #slide9 {
-    background-image: url(../image/bilgewater.jpg);
-    background-repeat: no-repeat;
-    max-width: 1920px;
-    width: 100%;
-    height: 100%;
-    background-size: 100% 100%; }
+    background-image: url(../image/bilgewater.jpg); }
   html #slide10, body #slide10 {
-    background-image: url(../image/bandlecity.jpg);
-    background-repeat: no-repeat;
-    max-width: 1920px;
-    width: 100%;
-    height: 100%;
-    background-size: 100% 100%; }
+    background-image: url(../image/bandlecity.jpg); }

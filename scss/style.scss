@@ -2,12 +2,15 @@ html,body{
   font-family: 'Arial';
   width:100%;
   height:100%;
-
   .navigation{
+    text-align:center;
     position:fixed;
+    list-style:none;
+    margin:0;
+    padding:0;
+    width:100%;
     z-index:1;
-    right:20px;
-    background-color:rgba(255,255,255,0.3);
+    background-color:rgba(255,255,255,0.5);
     background-repeat:no-repeat;
     li{
       color:black;
@@ -15,10 +18,9 @@ html,body{
       line-height:30px;
       font-weight:bold;
       -webkit-transition:all .2s ease-in-out;
-      text-align:center;
+      text-align:left;
       width:85px;
       display:inline-block;
-    
       :hover,:active{
         font-size:25px;
         cursor:pointer;
@@ -31,7 +33,20 @@ html,body{
     width:100%;
     height:100%;
     position:relative;
-  
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    max-width:1920px;
+    img{
+      position:absolute;
+    }
+    .text{
+      position:absolute;
+      color:#000000;
+      background-color:rgba(255,255,255,0.5);
+      p{
+        padding:10px;
+      }
+    }
     .wrapper{
       width:960px;
       height:200px;
@@ -52,7 +67,7 @@ html,body{
       height:50px;
       position:absolute;
       bottom:0px;
-      left:85%;
+      left:73%;
       background-color:#333333;
       background-image:url(../image/arrow.png);
       background-repeat:no-repeat;
@@ -65,95 +80,89 @@ html,body{
   }
   #slide1{
     background-image:url(../image/front.jpg);
-    background-size:100% 100%;
-    background-repeat:no-repeat;
-    max-width:1920px;
-    width:100%;
-    height:100%;
+    #text1_0{
+      background-color:transparent;
+      color:white;
+      bottom:32.5%;
+      left:29.5%;
+      h1{
+        font-size: 36px;
+        line-height: 40px;
+      }
+    }
+    #text1_1{
+      background-color:transparent;
+      color:white;
+      text-align:center;
+      bottom:22%;
+      left:38.5%;
+    }
+    audio{
+      position:absolute;
+      bottom:15px;
+      right:0px;
+    }
+    img:first-child{
+      top:80%;
+      left:22.5%;
+    }
+    img:nth-child(2){
+      bottom:65%;
+      left:50%;
+    }
   }
   #slide2{
     background-image:url(../image/valoran.jpg);
-    background-size:100% 100%;
-    background-repeat:no-repeat;
-    max-width:1920px;
-    width:100%;
-    height:100%;
   }
   #slide3{
     background-image:url(../image/demacia.jpg);
-    background-repeat:no-repeat;
-    max-width:1920px;
-    width:100%;
-    height:100%;
-    background-size:100% 100%;
     #text3{
-      color:#000000;
-      height:400px;
       width:600px;
-      position:absolute;
       top:100px;
       left:100px;
-      -webkit-transition: opacity 1s ease-in;
-      -moz-transition: opacity 1s ease-in;
-      -o-transition: opacity 1s ease-in;
-      -ms-transition: opacity 1s ease-in;
-      transition: opacity 1s ease-in;
     }
   }
   #slide4{
     background-image:url(../image/noxus.jpg);
-    background-repeat:no-repeat;
-    max-width:1920px;
-    width:100%;
-    height:100%;
-    background-size:100% 100%;
+    #text4{
+      color:white;
+      width:600px;
+      top:100px;
+      left:50px;
+    }
   }
   #slide5{
     background-image:url(../image/freljord.jpg);
-    background-repeat:no-repeat;
-    max-width:1920px;
-    width:100%;
-    height:100%;
-    background-size:100% 100%;
+    #text5{
+      width:600px;
+      top:100px;
+      left:300px;
+    }
   }
   #slide6{
     background-image:url(../image/piltover.jpg);
-    background-repeat:no-repeat;
-    max-width:1920px;
-    width:100%;
-    height:100%;
-    background-size:100% 100%;
+    #text6{
+      width:700px;
+      top:250px;
+      left:50px;
+    }
   }
   #slide7{
     background-image:url(../image/zaun.jpg);
-    background-repeat:no-repeat;
-    max-width:1920px;
-    width:100%;
-    height:100%;
-    background-size:100% 100%;
+    #text7{
+      color:white;
+      width:700px;
+      top:100px;
+      left:150px;
+    }
   }
   #slide8{
     background-image:url(../image/ionia.jpg);
-    background-repeat:no-repeat;
-    max-width:1920px;
-    width:100%;
-    height:100%;
-    background-size:100% 100%;
   }
   #slide9{
     background-image:url(../image/bilgewater.jpg);
-    background-repeat:no-repeat;
-    max-width:1920px;
-    width:100%;
-    height:100%;
-    background-size:100% 100%;
   }
   #slide10{
     background-image:url(../image/bandlecity.jpg);
-    background-repeat:no-repeat;
-    max-width:1920px;
-    width:100%;
-    height:100%;
-    background-size:100% 100%;
   }
 }
