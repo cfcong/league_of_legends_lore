@@ -118,8 +118,8 @@ html,body{
     background-image:url(../image/demacia.jpg);
     #text3{
       width:600px;
-      top:100px;
-      left:100px;
+      top:20%;
+      left:7.5%;
     }
   }
   #slide4{
@@ -127,24 +127,24 @@ html,body{
     #text4{
       color:white;
       width:600px;
-      top:100px;
-      left:50px;
+      top:20%;
+      left:2.5%;
     }
   }
   #slide5{
     background-image:url(../image/freljord.jpg);
     #text5{
       width:600px;
-      top:100px;
-      left:300px;
+      top:15%;
+      left:27.5%;
     }
   }
   #slide6{
     background-image:url(../image/piltover.jpg);
     #text6{
       width:700px;
-      top:250px;
-      left:50px;
+      top:35%;
+      left:3%;
     }
   }
   #slide7{
@@ -152,17 +152,35 @@ html,body{
     #text7{
       color:white;
       width:700px;
-      top:100px;
-      left:150px;
+      top:15%;
+      right:21%;
     }
   }
   #slide8{
     background-image:url(../image/ionia.jpg);
+    #text8{
+      color:black;
+      width:500px;
+      top:20%;
+      right:18.5%;
+    }
   }
   #slide9{
     background-image:url(../image/bilgewater.jpg);
+    #text9{
+      color:white;
+      width:700px;
+      top:14%;
+      right:2%;
+    }
   }
   #slide10{
     background-image:url(../image/bandlecity.jpg);
+    #text10{
+      color:black;
+      width:600px;
+      top:12%;
+      left:1.5%;
+    }
   }
 }
