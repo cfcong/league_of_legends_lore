@@ -14,17 +14,16 @@ html, body {
     background-repeat: no-repeat; }
     html .navigation li, body .navigation li {
       color: black;
-      padding: 0 10px;
+      padding: 0 30px;
       line-height: 30px;
       font-weight: bold;
       -webkit-transition: all .2s ease-in-out;
-      text-align: left;
-      width: 85px;
+      text-align: center;
       display: inline-block; }
-      html .navigation li :hover, html .navigation li :active, body .navigation li :hover, body .navigation li :active {
+      html .navigation li:hover, html .navigation li :active, body .navigation li:hover, body .navigation li :active {
         font-size: 25px;
         cursor: pointer;
-        width: 100px !important; }
+        text-align: center; }
   html .slide, body .slide {
     background-attachment: fixed;
     width: 100%;
@@ -63,7 +62,7 @@ html, body {
       background-color: #333333;
       background-image: url(../image/arrow.png);
       background-repeat: no-repeat; }
-      html .slide .button :hover, body .slide .button :hover {
+      html .slide .button:hover, body .slide .button:hover {
         background-color: #494949;
         cursor: pointer; }
   html #slide1, body #slide1 {

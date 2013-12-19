@@ -14,17 +14,16 @@ html,body{
     background-repeat:no-repeat;
     li{
       color:black;
-      padding:0 10px;
+      padding:0 30px;
       line-height:30px;
       font-weight:bold;
       -webkit-transition:all .2s ease-in-out;
-      text-align:left;
-      width:85px;
+      text-align:center;
       display:inline-block;
-      :hover,:active{
+      &:hover,:active{
         font-size:25px;
         cursor:pointer;
-        width:100px!important;
+        text-align:center;
       }
     }
   }
@@ -71,8 +70,7 @@ html,body{
       background-color:#333333;
       background-image:url(../image/arrow.png);
       background-repeat:no-repeat;
-      
-      :hover{
+      &:hover{
         background-color:#494949;
         cursor:pointer;
       }
