@@ -9,6 +9,7 @@ html, body {
     margin: 0;
     padding: 0;
     width: 100%;
+    margin: auto;
     z-index: 1;
     background-color: rgba(255, 255, 255, 0.5);
     background-repeat: no-repeat; }
@@ -70,8 +71,12 @@ html, body {
       background-color: transparent;
       color: white;
       width: 514px;
-      bottom: 42%;
-      left: 29.85%; }
+      margin: auto;
+      position: absolute;
+      top: 70%;
+      left: 0;
+      bottom: 0;
+      right: 0; }
       html #slide1 #text1_0 h1, body #slide1 #text1_0 h1 {
         font-size: 36px;
         line-height: 40px; }
@@ -79,10 +84,26 @@ html, body {
       background-color: transparent;
       color: white;
       text-align: center;
-      bottom: 28%;
-      left: 38.5%; }
+      margin: auto;
+      position: absolute;
+      top: 75%;
+      left: 0;
+      bottom: 0;
+      right: 0; }
     html #slide1 #logo, body #slide1 #logo {
-      margin: 7% 0% 7% 0%; }
+      margin: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0; }
+    html #slide1 #poro, body #slide1 #poro {
+      margin: auto;
+      position: absolute;
+      top: -70%;
+      left: 0;
+      bottom: 0;
+      right: -50%; }
   html #slide2, body #slide2 {
     background-image: url(../image/valoran.jpg); }
   html #slide3, body #slide3 {
