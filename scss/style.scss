@@ -17,7 +17,7 @@ html,body{
       padding:0 30px;
       line-height:30px;
       font-weight:bold;
-      -webkit-transition:all .2s ease-in-out;
+      -webkit-transition:all .1s ease-in-out;
       text-align:center;
       display:inline-block;
       &:hover,:active{
@@ -35,9 +35,8 @@ html,body{
     background-size:100% 100%;
     background-repeat:no-repeat;
     max-width:1920px;
-    img{
-      position:absolute;
-    }
+    margin:0 auto;
+    
     .text{
       position:absolute;
       color:#000000;
@@ -47,10 +46,10 @@ html,body{
       }
     }
     .wrapper{
-      width:960px;
-      height:200px;
-      margin:0 auto;
-      position:relative;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      text-align: center;
     }
     .slideno{
       position:absolute;
@@ -81,8 +80,9 @@ html,body{
     #text1_0{
       background-color:transparent;
       color:white;
-      bottom:32.5%;
-      left:29.5%;
+      width:514px;
+      bottom:42%;
+      left:29.85%;
       h1{
         font-size: 36px;
         line-height: 40px;
@@ -92,21 +92,14 @@ html,body{
       background-color:transparent;
       color:white;
       text-align:center;
-      bottom:22%;
+      bottom:28%;
       left:38.5%;
     }
-    audio{
-      position:absolute;
-      bottom:15px;
-      right:0px;
+    #logo {
+      margin:7% 0% 7% 0%;
     }
-    img:first-child{
-      top:80%;
-      left:22.5%;
-    }
-    img:nth-child(2){
-      bottom:65%;
-      left:50%;
+    #poro{
+
     }
   }
   #slide2{
@@ -151,7 +144,7 @@ html,body{
       color:white;
       width:700px;
       top:15%;
-      right:21%;
+      left:2%;
     }
   }
   #slide8{

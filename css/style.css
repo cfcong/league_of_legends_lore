@@ -17,7 +17,7 @@ html, body {
       padding: 0 30px;
       line-height: 30px;
       font-weight: bold;
-      -webkit-transition: all .2s ease-in-out;
+      -webkit-transition: all .1s ease-in-out;
       text-align: center;
       display: inline-block; }
       html .navigation li:hover, html .navigation li :active, body .navigation li:hover, body .navigation li :active {
@@ -31,9 +31,8 @@ html, body {
     position: relative;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    max-width: 1920px; }
-    html .slide img, body .slide img {
-      position: absolute; }
+    max-width: 1920px;
+    margin: 0 auto; }
     html .slide .text, body .slide .text {
       position: absolute;
       color: #000000;
@@ -41,10 +40,10 @@ html, body {
       html .slide .text p, body .slide .text p {
         padding: 10px; }
     html .slide .wrapper, body .slide .wrapper {
-      width: 960px;
-      height: 200px;
-      margin: 0 auto;
-      position: relative; }
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      text-align: center; }
     html .slide .slideno, body .slide .slideno {
       position: absolute;
       bottom: 20px;
@@ -70,8 +69,9 @@ html, body {
     html #slide1 #text1_0, body #slide1 #text1_0 {
       background-color: transparent;
       color: white;
-      bottom: 32.5%;
-      left: 29.5%; }
+      width: 514px;
+      bottom: 42%;
+      left: 29.85%; }
       html #slide1 #text1_0 h1, body #slide1 #text1_0 h1 {
         font-size: 36px;
         line-height: 40px; }
@@ -79,18 +79,10 @@ html, body {
       background-color: transparent;
       color: white;
       text-align: center;
-      bottom: 22%;
+      bottom: 28%;
       left: 38.5%; }
-    html #slide1 audio, body #slide1 audio {
-      position: absolute;
-      bottom: 15px;
-      right: 0px; }
-    html #slide1 img:first-child, body #slide1 img:first-child {
-      top: 80%;
-      left: 22.5%; }
-    html #slide1 img:nth-child(2), body #slide1 img:nth-child(2) {
-      bottom: 65%;
-      left: 50%; }
+    html #slide1 #logo, body #slide1 #logo {
+      margin: 7% 0% 7% 0%; }
   html #slide2, body #slide2 {
     background-image: url(../image/valoran.jpg); }
   html #slide3, body #slide3 {
@@ -124,7 +116,7 @@ html, body {
       color: white;
       width: 700px;
       top: 15%;
-      right: 21%; }
+      left: 2%; }
   html #slide8, body #slide8 {
     background-image: url(../image/ionia.jpg); }
     html #slide8 #text8, body #slide8 #text8 {
